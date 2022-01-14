@@ -24,9 +24,12 @@ function two(call) {
 
 // two(one);
 let stocks = {
-    Fruits: ["strawberry", "grapes", "banana", "apple"]
-}
-console.log(stocks.Fruits[1]);
+    fruits: ["strawberry", "grapes", "banana", "apple"],
+    liquid: ["water", "ice"],
+    holder: ["cone", "cup", "stick"],
+    topping: ["chocolate", "peanuts"]
+};
+console.log(stocks.fruits[1]);
 
 let order = (prod) => {
     console.log("Order placed, please alert production");
